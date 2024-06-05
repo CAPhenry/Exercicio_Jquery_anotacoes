@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <title>Lista de tarefas</title>
+</head>
+<body>
+    <div class="container">
+        <div class="adicionar">+</div>
+        <div class="form-lateral">
+            <form>
+                <input id="input-texto" type="text" placeholder="Texto da tarefa" required>
+                <button type="submit">Salvar</button>
+            </form>
+            <p>Sabia que as anotações pode ser posicionadas? basta clicar e arasta-la</p>
+        </div>
+        <div class="anotacoes">
+            <ol></ol>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
